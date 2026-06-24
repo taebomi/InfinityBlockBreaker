@@ -1,43 +1,12 @@
 # Infinity Block Breaker
+> 벽돌 깨기 — 스테이지 · 무한 · 2인 대전 모드 | Unity, C# | 1인 개발 | Android (Google Play, 서비스 종료)
+> 2016 상반기 · **3만+ 다운로드 · 누적 광고 수익 300만+ · 평점 3.8 (리뷰 77)**
 
-> 벽돌 깨기 | Unity 2D, C# | 1인 | Android (Google Play)
+<img src="https://github.com/user-attachments/assets/c771d8b1-f93b-4b96-b6a9-f5cd73da36a1" width="720" />
+<img src="https://github.com/user-attachments/assets/083f98d8-0ad8-4c78-b16e-42f423581c1f" width="720" />
+<img src="https://github.com/user-attachments/assets/f15196a2-e85b-4ddf-95ca-46849363d219" height="720" />
 
 ---
 
 ## 기술 스택
-
-- **Unity 2D, C#**
-- **AdMob** — 배너·전면 광고 (2회 플레이당 전면 노출)
-- **GPGS** — 로그인, 리더보드(점수·레벨), 업적 시스템
-
----
-
-## 핵심 구현
-
-| 파일 | 역할 |
-|------|------|
-| [Ball_Control.cs](Single/Ball_Control.cs) | 공 성장 시스템 — 터치 횟수 누적으로 데미지·외형 변화 |
-| [Block_Manager.cs](Single/Block_Manager.cs) | 블록 HP·점수 레벨 연동, 색상으로 체력 시각화 |
-| [Set_Making.cs](Single/Set_Making.cs) | 확률 기반 아이템 배치 — 레벨에 따라 버프/디버프 비율 역전 |
-| [Game_Manager.cs](Single/Game_Manager.cs) | 게임 루프, GPGS 랭킹·업적 보고, AdMob 전면 광고 |
-| [Game_Manager_Multi.cs](Multi/Game_Manager_Multi.cs) | 2인 멀티플레이 — 타이머 기반 점수 경쟁 |
-| [Shop_Manager.cs](Shop/Shop_Manager.cs) | 골드·아이템·업그레이드 구매 (PlayerPrefs 저장) |
-
----
-
-## 코드 구조
-
-```
-01_InfinityBlockBreaker/
-├── Single/                    # 무한 모드
-│   ├── Game_Manager.cs        # 게임 루프, GPGS, AdMob
-│   ├── Ball_Control.cs        # 공 물리 + 성장 시스템
-│   ├── Block_Manager.cs       # 블록 HP/점수/색상
-│   ├── Set_Making.cs          # 블록 행 생성 + 아이템 배치 확률
-│   └── Item/                  # 아이템 9종 (공 추가, 쉴드, 파워업 등)
-├── Stage/                     # 스테이지 모드
-├── Multi/                     # 2인 멀티플레이
-│   └── Game_Manager_Multi.cs  # 타이머 기반 점수 경쟁
-├── Shop/                      # 상점 (아이템 구매 + 업그레이드)
-└── Object/                    # 공통 오브젝트 (바, 쉴드)
-```
+- **Unity, C#** · AdMob · GPGS
