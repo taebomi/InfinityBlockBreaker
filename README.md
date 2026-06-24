@@ -1,7 +1,7 @@
 # Infinity Block Breaker
 > 벽돌 깨기 — 스테이지 · 무한 · 2인 대전 모드
 >
-> Unity, C#
+> Unity · C# · AdMob · GPGS
 >
 > 1인 개발 · 2016 상반기
 >
@@ -16,4 +16,4 @@
 </p>
 
 ## 기술 스택
-- **Unity, C#** · AdMob · GPGS
+- **Unity, C#** 
