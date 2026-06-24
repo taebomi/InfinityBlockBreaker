@@ -14,6 +14,3 @@
 <img src="https://github.com/user-attachments/assets/083f98d8-0ad8-4c78-b16e-42f423581c1f" width="30%" />
 <img src="https://github.com/user-attachments/assets/f15196a2-e85b-4ddf-95ca-46849363d219" width="30%" />
 </p>
-
-## 기술 스택
-- **Unity, C#** 
